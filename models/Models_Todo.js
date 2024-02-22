@@ -2,8 +2,8 @@ const mysql = require('mysql');
 
 module.exports = class Models_Todo {
   constructor() {
-    this.pool = mysql.createPool({
-      host: 'roundhouse.proxy.rlwy.net',
+     this.pool = mysql.createPool({
+      host: '127.0.0.1',
       user: 'root',
       password: 'password',
       database: 'college',
